@@ -6,7 +6,7 @@ permalink: /archives/16/index.html
 Everybody's talking about REST and RESTful web applications, so it
 doesn't come as a surprise that there would be some kind of support
 for this architecture style in Spring sooner or later.  Today at the
-SpringOne in Antwerp, [Arjen](http://blog.springframework.com/arjen/) gave a
+SpringOne in Antwerp, [Arjen](http://blog.springsource.com/author/arjenp/) gave a
 presentation on that topic and actually revealed what the [announced](http://www.springify.com/archives/15)
 "full-scale" REST support will look like. So here's the
 details for those of you who haven't had the opportunity to be here in
@@ -75,7 +75,8 @@ slides here:
 // Retrieving a represenation with 
 // getForObject (with parameter substitution) 
 RestTemplate template = new RestTemplate(); 
-Gadget gadget = template.getForObject("http://www.springify.com/gadgets/{id}", Gadget.class, 1);
+Gadget gadget = template.getForObject("http://www.springify.com/gadgets/{id}", 
+                                      Gadget.class, 1);
 
 // Creating a resource with postForLocation 
 // (with parameter substitution, map variant) 

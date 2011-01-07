@@ -1,6 +1,6 @@
 ---
 layout: post
-title: TDD with Spring's configuration magic
+title: TDD with Spring&#39;s configuration magic
 permalink: /archives/8/index.html
 ---
 While preparing a presentation on test-driven development, I had the

@@ -1,9 +1,8 @@
 ---
 layout: index
-title: Springify - Nils Wloka's Blog
+title: Springify - Nils Wloka&#39;s Blog
 paginate: true
 ---
-<h1>Latests posts</h1>
 {% for post in site.posts limit:3 %}
 {% assign body = post.content %}
 {% include partial-post.html %}

@@ -2,12 +2,15 @@
 layout: post
 title: Spring 3.0 and beyond
 permalink: /archives/19/index.html
+description: Information about the pending Spring 3.0 release as
+             gathered on the SpringSource Seminar Day in
+             Linz.
 ---
 I know that I promised some more reports about SpringOne, but as so
 often, plans haven't survived confrontation with reality. As
 compensation, I offer you the latest news about the upcoming Spring
 3.0 release, fresh from the
-[SpringSource Seminar Day in Linz](http://www.springsource.com/node/392) (which I had the opportunity to attend to, as my employer,
+SpringSource Seminar Day in Linz (which I had the opportunity to attend to, as my employer,
 [OPITZ CONSULTING](http://www.opitz-consulting.de), now SpringSource Premier Systems Integrator Partner, was one of the
 event's sponsors). Please bear in mind that many of the new features
 still only exist as prototypes, so things can and probably will change
@@ -114,7 +117,7 @@ the more interesting facts about the new model validation mechanisms
 is the deep integration with Spring Web MVC and Spring JS to provide
 gracefully degrading client side validation when using the form
 namespace to bind to an annotated model class.  Also, the Spring team
-seems to be evaluating [JSR 303](http://jcp.org/en/jsr/detail?id=303) and the [Hibernate Validator](http://www.hibernate.org/412.html)
+seems to be evaluating [JSR 303](http://jcp.org/en/jsr/detail?id=303) and the [Hibernate Validator](http://hibernate.org/subprojects/validator)
 project, so we can probably hope for support for standard validation
 annotations.
 

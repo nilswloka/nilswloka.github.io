@@ -16,6 +16,18 @@ layout: nil
     <loc>http://www.springify.com/publications/</loc>
     <changefreq>weekly</changefreq>
   </url>
+  <url>
+    <loc>http://www.springify.com/legal/</loc>
+    <changefreq>monthly</changefreq>
+  </url>
+  <url>
+    <loc>http://www.springify.com/archives/</loc>
+    <changefreq>daily</changefreq>
+  </url>
+  <url>
+    <loc>http://www.springify.com/privacy/</loc>
+    <changefreq>monthly</changefreq>
+  </url>
 {% for page in site.posts %}  <url>
     <loc>http://www.springify.com{{ page.url }}</loc>
     <lastmod>{{ page.date | date: "%Y-%m-%d" }}</lastmod>

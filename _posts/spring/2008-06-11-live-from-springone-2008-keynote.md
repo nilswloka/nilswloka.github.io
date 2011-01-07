@@ -11,8 +11,8 @@ who were already swarming the Metropolis cinema complex. As [Stephan](http://www
 just told us, some 400 people from 25 countries have registered. But
 back to what's happening on screen right now: Stephan just finished
 his introductory talk, which he mainly spent showing all the shiney
-features of [Parleys](http://parleys.com/display/PARLEYS/Home), with the announcement that due to trademark
-issue, Javapolis will officially be renamed to [Javoxx](http://www.javoxx.com/display/JV08/Home) and handed
+features of [Parleys](http://www.parleys.com), with the announcement that due to trademark
+issue, Javapolis will officially be renamed to Javoxx and handed
 off the microphone to [Rod](http://blog.springsource.com/main/author/rodj/).  Rod's just promised that the keynote he's 
 about to hold is going to address technical people and presented
 statistics which showed that recently
@@ -23,10 +23,10 @@ Java applications and middleware services.  A point that Rod doesn't
 get tired to emphasise is that Spring is about choice. One important
 step into that direction was the comprehensive support for
 annotation-based configuration in Spring 2.5. Even while the syntax is
-new, using @Autowired and @Qualifier is equivalent to the autowiring
+new, using `@Autowired` and `@Qualifier` is equivalent to the autowiring
 by type and by name that has always been part of Spring's
 configuration options. What's new is the possibility to define own
-qualifier annotations by annotating them with @Qualifier, as shown on
+qualifier annotations by annotating them with `@Qualifier`, as shown on
 the example below.
 
 {% highlight java %}
@@ -60,7 +60,7 @@ if you really wanted to - avoid writing any XML configuration at all.
 
 As the keynote progresses, Rod's stressing that one of the most
 important freebies you get when using Spring is the ability to secure
-your application by means of [[http://static.springframework.org/spring-security/site/index.html][Spring Security]] (formerly Acegi Security). 
+your application by means of [Spring Security](http://static.springframework.org/spring-security/site/index.html) (formerly Acegi Security). 
 As we all happen to know by now, every time you used Acegi, 
 [a fairy died](http://netzooid.com/blog/2007/12/03/every-time-you-use-acegi). The configuration was just horrible (someone compared
 it to strangling a dragon with bare hands, though I seem to have lost
@@ -89,10 +89,10 @@ If you have used Spring MVC in Spring 2.0, you should also have a look
 at the new features introduced with the 2.5 release. I have written
 about it before, but I think the new "convention over configuration"
 mentality introduced here - especially with the advent of 
-[@Controller](http://static.springframework.org/spring/docs/2.5.x/reference/mvc.html#mvc-annotation) - is worth noting again. Things have become a lot easier and, combined
+[`@Controller`](http://static.springframework.org/spring/docs/2.5.x/reference/mvc.html#mvc-annotation) - is worth noting again. Things have become a lot easier and, combined
 with the new [Spring Web Flow](http://www.springframework.org/webflow) release, development web applications with Java might
 even become fun (well, in the broader sense). Some of the highlights
-of both frameworks, namely the aforementioned @Controller annotation,
+of both frameworks, namely the aforementioned `@Controller` annotation,
 SWF's Ajax features, Spring JavaScript (which is, according to 
 [Keith](http://blog.springsource.com/main/author/keithd/), who just took over the microphone, is "a toolkit for progressively
 enhancing web pages with AJAX" built on [DOJO](http://dojotoolkit.org/) and Spring Faces (which

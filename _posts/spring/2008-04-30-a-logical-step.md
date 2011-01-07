@@ -4,7 +4,7 @@ title: A logical step
 permalink: /archives/11/index.html
 ---
 It's been some time since I last wrote an article here, but after
-having found [this](http://www.infoq.com/news/2008/04/springsource-app-platform)] in my [InfoQ](http://www.infoq.com/) feed today, I felt the
+having found [this](http://www.infoq.com/news/2008/04/springsource-app-platform) in my [InfoQ](http://www.infoq.com/) feed today, I felt the
 urge to share and discuss my thoughts.
 
 Let me summarize the article for those of you who haven't yet had the
@@ -12,7 +12,7 @@ opportunity to read it. To put it in a nutshell, [SpringSource](http://www.sprin
 already released as beta their own Java application container based on
 Spring, Tomcat and OSGi. I'm not actually surprised by this move as
 there have been a lot of hints pointing into this direction in the
-past, the [acquisition of Covalent](http://www.springsource.com/web/guest/2008/covalentaquisition) probably being the most prominent one.
+past, the acquisition of Covalent probably being the most prominent one.
 
 Anyway, I personally find it exciting news as, if the bundle delivers
 what is promised in the article, this might mean that there will be a

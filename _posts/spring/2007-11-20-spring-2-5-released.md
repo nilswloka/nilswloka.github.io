@@ -2,6 +2,7 @@
 layout: post
 title: Spring 2.5 released
 permalink: /archives/7/index.html
+description: A short blog on the occasion of the release of Spring 2.5
 ---
 It's finally there, and with quite a handful of impressive new
 features, too. I especially like the new configuration options and the

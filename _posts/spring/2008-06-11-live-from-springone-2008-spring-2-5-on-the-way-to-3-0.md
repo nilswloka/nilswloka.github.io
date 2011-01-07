@@ -24,12 +24,12 @@ You can write your own stereotype annotations (yes, completely independent from 
 Spring annotations) and make the container automatically pick up your
 annotated components by supplying filters to the
 `ClassPathBeanDefinitionScanner` responsible for determining valid
-candidates. See the [domain-driven design](http://static.springframework.org/spring/docs/2.5.x/api/org/springframework/context/annotation/ClassPathScanningCandidateComponentProvider.html#addIncludeFilter(org.springframework.core.type.filter.TypeFilter)][documentation]] for details. This sounds great for implementing [[http://www.domaindrivendesign.org/)
+candidates. See the [documentation](http://static.springframework.org/spring/docs/2.5.x/api/org/springframework/context/annotation/ClassPathScanningCandidateComponentProvider.html#addIncludeFilter(org.springframework.core.type.filter.TypeFilter)) for details. This sounds great for implementing [domain-driven design](http://www.domaindrivendesign.org/)
 principles by providing intention revealing annotations.
 
 ## OpenJPA save point support
-Spring's [OpenJPA](http://static.springframework.org/spring/docs/2.5.x/api/org/springframework/orm/jpa/vendor/OpenJpaVendorAdapter.html][OpenJpaVendorAdapter]] exposes [[http://openjpa.apache.org/)'s
-[extended EntityManager implementation](http://openjpa.apache.org/docs/latest/javadoc/org/apache/openjpa/persistence/OpenJPAEntityManager.html). As Spring's JpaTransactionManager
+Spring's [OpenJpaVendorAdapter](http://static.springframework.org/spring/docs/2.5.x/api/org/springframework/orm/jpa/vendor/OpenJpaVendorAdapter.html) exposes [OpenJPA](http://openjpa.apache.org/)'s
+[extended EntityManager implementation](http://openjpa.apache.org/builds/latest/docs/javadoc/org/apache/openjpa/persistence/OpenJPAEntityManager.html). As Spring's JpaTransactionManager
 has support for JDBC 3.0 savepoints, this eventually allows you to use
 OpenJPA's save point semantics. I'll make sure to give this a try and
 blog about how it works.
