@@ -1,10 +1,10 @@
 ---
 layout: default
 ---
-<h1>{{ page.title }}</h1>
+<h1>{{ page.title }}</h1>{% if page.flattr %}
 <div style="float: right; padding: 10px; border: 1px solid #ccc; margin-left: 10px; margin-bottom: 10px;">
-     <a class="FlattrButton" style="display:none;" href="http://www.springify.com{{page.url}}"></a>
-</div>
+     <a class="FlattrButton" style="display:none;" href="http://www.nilswloka.com{{page.url}}"></a>
+</div>{% endif %}
 <div style="float: right; padding: 10px; border: 1px solid #ccc; margin-left: 10px; margin-bottom: 10px;">
 <div class="addthis_toolbox addthis_default_style">
     <a href="http://addthis.com/bookmark.php?v=250" class="addthis_button_compact">Share</a>
@@ -21,10 +21,10 @@ layout: default
 {{content}}
 <div id="disqus_thread"></div>
 <script type="text/javascript">
-    var disqus_shortname = 'springify'; // required: replace example with your forum shortname
+    var disqus_shortname = 'nilswloka'; // required: replace example with your forum shortname
     var disqus_developer = 1; // developer mode is on
     var disqus_identifier = '{{page.id}}';
-    var disqus_url = 'http://www.springify.com{{page.url}}';
+    var disqus_url = 'http://www.nilswloka.com{{page.url}}';
     var disqus_title = '{{page.title | escape_javascript}}';
     (function() {
         var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
@@ -34,3 +34,5 @@ layout: default
 </script>
 <noscript>Please enable JavaScript to view the <a href="http://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
 <a href="http://disqus.com" class="dsq-brlink">blog comments powered by <span class="logo-disqus">Disqus</span></a>
+<script type="text/javascript" src="https://apis.google.com/js/plusone.js"></script>
+
