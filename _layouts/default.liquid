@@ -11,8 +11,23 @@
 <meta name="keywords" content="nils wloka,blog,software development{% if page.keywords %},{{ page.keywords }}{% endif %}" />
 <link href="/stylesheets/style.css" rel="stylesheet" type="text/css" />
 <link href="/stylesheets/pygments.css" rel="stylesheet" type="text/css" />
-<link rel="alternate" type="application/atom+xml" href="http://feeds.feedburner.com/nilswloka/atom" />
+<link rel="alternate" type="application/atom+xml" href="http://feeds.feedburner.com/nilswloka" />
 <link rel="canonical" href="http://www.nilswloka.com{{ page.url }}"/>{% if page.flattr %}
+<script type="text/javascript">
+
+  var _gaq = _gaq || [];
+  _gaq.push(['_setAccount', 'UA-24416070-1']);
+  _gaq.push(['_setDomainName', 'nilswloka.com']);
+  _gaq.push(['_setAllowHash', 'false']);
+  _gaq.push(['_trackPageview']);
+
+  (function() {
+    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+  })();
+
+</script>
 <script type="text/javascript">
 /* <![CDATA[ */
     (function() {
@@ -36,17 +51,6 @@ function Gsitesearch(curobj){
     curobj.q.value="site:"+domainroot+" "+curobj.qfront.value
 }
 </script>
-<script type="text/javascript">
-  var _gaq = _gaq || [];
-  _gaq.push(['_setAccount', 'UA-3012671-1']);
-  _gaq.push(['_trackPageview']);
-
-  (function() {
-    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
-    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
-    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
-  })();
-</script>
 </head>
 <body>
   <div id="container">
@@ -65,8 +69,9 @@ function Gsitesearch(curobj){
         <li><a class="navitem" href="/about">About Me</a></li>
         <li><a class="navitem" href="/publications">Publications</a></li>
         <li><a class="navitem" href="/archives">Archives</a></li>
-        <li><p><a href="http://feeds.feedburner.com/nilswloka/atom"><img style="border: 0; float:left; padding-right: 7px;" src="/images/rss.png" width="34" height="34" alt="Subscribe to my feed"/> subscribe to my feed</a></p></li>
+        <li><p><a href="http://feeds.feedburner.com/nilswloka"><img style="border: 0; float:left; padding-right: 7px;" src="/images/rss.png" width="34" height="34" alt="Subscribe to my feed"/> subscribe to my feed</a></p></li>
         <li><p><a href="http://www.twitter.com/nilswloka"><img style="border: 0; float:left; padding-right: 7px;" src="http://twitter-badges.s3.amazonaws.com/t_logo-c.png" alt="Follow nilswloka on Twitter"/> follow me on Twitter</a></p></li>
+        <li><p><a title="View Nils Wloka's profile on slideshare" href="http://www.slideshare.net/springify" ><img style="border: 0; float:left; padding-right: 7px;" src="http://public.slidesharecdn.com/images/badge48px_dark.png" width="38" height="38" alt="View Nils Wloka's profile on slideshare" /> my profile at slideshare</a></p></li>
       </ul>
     </div>
     <div id="sidebar">
@@ -81,8 +86,8 @@ function Gsitesearch(curobj){
       {{ content }}
     </div>
     <div id="footer"> 
-      <p>Copyright &copy; Nils Wloka | Based on a design by <a href="http://smallpark.org">SmallPark</a> |  Hosted by <a href="https://www.webhostone.de/">WebhostOne</a> | <a href="/privacy">Privacy Policy</a> | <a href="/legal">Legal Nocice</a><br/>
-      <span xmlns:dc="http://purl.org/dc/elements/1.1/" href="http://purl.org/dc/dcmitype/Text" property="dc:title" rel="dc:type">nilswloka.com weblog</span> by <a xmlns:cc="http://creativecommons.org/ns#" href="http://www.springify.com" property="cc:attributionName" rel="cc:attributionURL">Nils Wloka</a> is licensed under a <a rel="license" href="http://creativecommons.org/licenses/by-sa/2.0/de/">Creative Commons Attribution-Share Alike 2.0 Germany License</a> </p>
+      <p>Copyright &copy; Nils Wloka | Based on a design by <a href="http://smallpark.org">SmallPark</a> |  Hosted by <a href="https://www.webhostone.de/">WebhostOne</a> | <a href="/privacy">Privacy Policy</a> | <a href="/legal">Legal Notice</a> | Baked with <a href="https://github.com/mojombo/jekyll">Jekyll</a><br/>
+      <span xmlns:dc="http://purl.org/dc/elements/1.1/" href="http://purl.org/dc/dcmitype/Text" property="dc:title" rel="dc:type">nilswloka.com weblog</span> by <a xmlns:cc="http://creativecommons.org/ns#" href="http://www.nilswloka.com" property="cc:attributionName" rel="cc:attributionURL">Nils Wloka</a> is licensed under a <a rel="license" href="http://creativecommons.org/licenses/by-sa/2.0/de/">Creative Commons Attribution-Share Alike 2.0 Germany License</a> </p>
     </div>
   </div>
 </body>

@@ -1,5 +1,6 @@
 ---
 layout: post
+flattr: 1
 title: Open Spaces within the company
 description: How to effectively use Open Space meetings as
              company-internal dicussion forums.
