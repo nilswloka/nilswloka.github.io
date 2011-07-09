@@ -1,24 +1,17 @@
 ---
 layout: default
 ---
-<h1>{{ page.title }}</h1>{% if page.flattr %}
-<div style="float: right; padding: 10px; border: 1px solid #ccc; margin-left: 10px; margin-bottom: 10px;">
-     <a class="FlattrButton" style="display:none;" href="http://www.nilswloka.com{{page.url}}"></a>
-</div>{% endif %}
-<div style="float: right; padding: 10px; border: 1px solid #ccc; margin-left: 10px; margin-bottom: 10px;">
-<div class="addthis_toolbox addthis_default_style">
-    <a href="http://addthis.com/bookmark.php?v=250" class="addthis_button_compact">Share</a>
-    <a class="addthis_button_dzone"></a>
-    <a class="addthis_button_digg"></a>
-    <a class="addthis_button_reddit"></a>
-    <a class="addthis_button_hackernews"></a>
-    <a class="addthis_button_twitter"></a>    
-    <a class="addthis_button_delicious"></a>
-    <a class="addthis_button_email"></a>
+<h1>{{ page.title }}</h1>
+<strong style="float: left;">Posted on {{ page.date | date: "%x"}}.</strong>
+<div style="float: right;">
+     <a href="http://twitter.com/share" class="twitter-share-button" data-count="horizontal" data-via="nilswloka">Tweet</a><script type="text/javascript" src="http://platform.twitter.com/widgets.js"></script>{% if page.flattr %}
+     <a class="FlattrButton" style="display:none;" rev="flattr;button:compact;" href="http://www.nilswloka.com/2011/07/08/openspace-in-the-company.html"></a>
+     <noscript><a href="http://flattr.com/thing/339774/Open-Spaces-within-the-company" target="_blank"><img src="http://api.flattr.com/button/flattr-badge-large.png" alt="Flattr this" title="Flattr this" border="0" /></a></noscript>&nbsp;&nbsp;{% endif %}
+     <g:plusone size="medium"></g:plusone>
 </div>
-</div>
-<strong>Posted on {{ page.date | date: "%x"}}.</strong>
+<div style="float: left;">
 {{content}}
+</div>
 <div id="disqus_thread"></div>
 <script type="text/javascript">
     var disqus_shortname = 'nilswloka'; // required: replace example with your forum shortname

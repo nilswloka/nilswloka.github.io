@@ -12,7 +12,7 @@
 <link href="/stylesheets/style.css" rel="stylesheet" type="text/css" />
 <link href="/stylesheets/pygments.css" rel="stylesheet" type="text/css" />
 <link rel="alternate" type="application/atom+xml" href="http://feeds.feedburner.com/nilswloka" />
-<link rel="canonical" href="http://www.nilswloka.com{{ page.url }}"/>{% if page.flattr %}
+<link rel="canonical" href="http://www.nilswloka.com{{ page.url }}"/>
 <script type="text/javascript">
 
   var _gaq = _gaq || [];
@@ -27,20 +27,19 @@
     var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
   })();
 
-</script>
+</script>{% if page.flattr %}
 <script type="text/javascript">
 /* <![CDATA[ */
     (function() {
         var s = document.createElement('script'), t = document.getElementsByTagName('script')[0];
-        
         s.type = 'text/javascript';
         s.async = true;
         s.src = 'http://api.flattr.com/js/0.6/load.js?mode=auto';
-        
         t.parentNode.insertBefore(s, t);
     })();
 /* ]]> */
-</script>{% endif %}
+</script>
+{% endif %}
 <script type="text/javascript" src="http://s7.addthis.com/js/250/addthis_widget.js"></script>
 <script type="text/javascript">
 // Google Internal Site Search script- By JavaScriptKit.com (http://www.javascriptkit.com)
@@ -51,6 +50,7 @@ function Gsitesearch(curobj){
     curobj.q.value="site:"+domainroot+" "+curobj.qfront.value
 }
 </script>
+<script type="text/javascript" src="https://apis.google.com/js/plusone.js"></script>
 </head>
 <body>
   <div id="container">
@@ -76,7 +76,7 @@ function Gsitesearch(curobj){
     </div>
     <div id="sidebar">
       <h2>Blogroll</h2>
-      <p><a href="http://gojko.net">Gojko Adzic</a><br/><a href="http://nakkaya.com/">Nurullah Akkaya</a><br/><a href="http://www.agilemanagement.net/index.php/blog/">David J. Anderson</a><br/><a href="http://blog.fogus.me/">Michael Fogus</a><br/><a href="http://debasishg.blogspot.com/">Debasish Ghosh</a><br/><a href="http://sethgodin.typepad.com/seths_blog/">Seth Godin</a><br/><a href="http://technomancy.us/">Phil Hagelberg</a><br/><a href="http://thecleancoder.blogspot.com/">Robert C. Martin</a><br/><a href="http://www.danpink.com/">Daniel Pink</a><br/><a href="http://www.presentationzen.com/">Garr Reynolds</a><br/></p>
+      <p><a href="http://gojko.net">Gojko Adzic</a><br/><a href="http://nakkaya.com/">Nurullah Akkaya</a><br/><a href="http://www.agilemanagement.net/index.php/blog/">David J. Anderson</a><br/><a href="http://blog.fogus.me/">Michael Fogus</a><br/><a href="http://debasishg.blogspot.com/">Debasish Ghosh</a><br/><a href="http://sethgodin.typepad.com/seths_blog/">Seth Godin</a><br/><a href="http://technomancy.us/">Phil Hagelberg</a><br/><a href="http://cleancoder.posterous.com/">Robert C. Martin</a><br/><a href="http://www.danpink.com/">Daniel Pink</a><br/><a href="http://www.presentationzen.com/">Garr Reynolds</a><br/></p>
       <h2>Friends &amp; Colleagues</h2>
       <p><a href="http://www.biskup.net/blog/">Thomas Biskup</a><br/><a href="http://www.stefanglase.de/">Stefan Glase</a><br/><a href="http://www.myndian.de/blog/">J&ouml;rg Gottschling</a><br/><a href="http://beezleblog.blogspot.com/">Stefan Scheidt</a><br/><a href="http://torstenwinterberg.blogspot.com/">Torsten Winterberg</a></p>
       <h2>Things I Like</h2>
