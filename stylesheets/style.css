@@ -56,7 +56,7 @@ a:hover {
 
 
 a#ribbon:hover {
-   background-color: #FFFFFF;
+   background-color: transparent;
 }
 
 form {
