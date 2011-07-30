@@ -7,8 +7,8 @@
 <meta name="author" content="Nils Wloka" />
 <title>nilswloka.com - {{ page.title }}</title>{% if page.description %}
 <meta name="description" content="{{ page.description }}"/>{% endif %}{% if page.robots %}
-<meta name="robots" content="{{ page.robots }}"/>{% endif %}
-<meta name="keywords" content="nils wloka,blog,software development{% if page.keywords %},{{ page.keywords }}{% endif %}" />
+<meta name="robots" content="{{ page.robots }}"/>{% endif %}{% if page.keywords %}
+<meta name="keywords" content="{{ page.keywords }}" />{% endif %}
 <link href="/stylesheets/style.css" rel="stylesheet" type="text/css" />
 <link href="/stylesheets/pygments.css" rel="stylesheet" type="text/css" />
 <link rel="alternate" type="application/atom+xml" href="http://feeds.feedburner.com/nilswloka" />
@@ -76,9 +76,9 @@ function Gsitesearch(curobj){
     </div>
     <div id="sidebar">
       <h2>Blogroll</h2>
-      <p><a href="http://gojko.net">Gojko Adzic</a><br/><a href="http://nakkaya.com/">Nurullah Akkaya</a><br/><a href="http://www.agilemanagement.net/index.php/blog/">David J. Anderson</a><br/><a href="http://blog.fogus.me/">Michael Fogus</a><br/><a href="http://debasishg.blogspot.com/">Debasish Ghosh</a><br/><a href="http://sethgodin.typepad.com/seths_blog/">Seth Godin</a><br/><a href="http://technomancy.us/">Phil Hagelberg</a><br/><a href="http://cleancoder.posterous.com/">Robert C. Martin</a><br/><a href="http://www.danpink.com/">Daniel Pink</a><br/><a href="http://www.presentationzen.com/">Garr Reynolds</a><br/></p>
+      <p><a href="http://gojko.net">Gojko Adzic</a><br/><a href="http://nakkaya.com/">Nurullah Akkaya</a><br/><a href="http://www.agilemanagement.net/index.php/blog/">David J. Anderson</a><br/><a href="http://agilecoach.typepad.com/">Rachel Davies</a><br/><a href="http://blog.fogus.me/">Michael Fogus</a><br/><a href="http://debasishg.blogspot.com/">Debasish Ghosh</a><br/><a href="http://sethgodin.typepad.com/seths_blog/">Seth Godin</a><br/><a href="http://technomancy.us/">Phil Hagelberg</a><br/><a href="http://hhgttg.de/blog/">Olaf Lewitz</a></br/><a href="http://cleancoder.posterous.com/">Robert C. Martin</a><br/><a href="http://www.danpink.com/">Daniel Pink</a><br/><a href="http://www.presentationzen.com/">Garr Reynolds</a><br/></p>
       <h2>Friends &amp; Colleagues</h2>
-      <p><a href="http://www.biskup.net/blog/">Thomas Biskup</a><br/><a href="http://www.stefanglase.de/">Stefan Glase</a><br/><a href="http://beezleblog.blogspot.com/">Stefan Scheidt</a><br/><a href="http://www.herr-norbert.de/">Norbert Schneider</a><br/><a href="http://rolandschneider.blogspot.com/">Roland Schneider</a><br/><a href="http://talk2gerd.blogspot.com/">Gerd Volberg</a><br/><a href="http://torstenwinterberg.blogspot.com/">Torsten Winterberg</a></p>
+      <p><a href="http://www.biskup.net/blog/">Thomas Biskup</a><br/><a href="http://www.stefanglase.de/">Stefan Glase</a><br/><a href="http://microino.de/">Sascha Hanke</a><br/><a href="http://beezleblog.blogspot.com/">Stefan Scheidt</a><br/><a href="http://www.herr-norbert.de/">Norbert Schneider</a><br/><a href="http://rolandschneider.blogspot.com/">Roland Schneider</a><br/><a href="http://talk2gerd.blogspot.com/">Gerd Volberg</a><br/><a href="http://torstenwinterberg.blogspot.com/">Torsten Winterberg</a></p>
       <h2>Things I Like</h2>
       <p><a href="http://clojure.org/">Clojure</a><br/><a href="http://concordion.org/">Concordion</a><br/><a href="http://www.gnu.org/software/emacs/">GNU Emacs</a><br/><a href="http://www.infoq.com/">infoq</a><br/><a href="http://www.jetbrains.com/idea/">IntelliJ IDEA</a><br/><a href="http://www.springsource.org/">Spring Framework</a><br/><a href="http://xkcd.com/">xkcd</a></p>
     </div>

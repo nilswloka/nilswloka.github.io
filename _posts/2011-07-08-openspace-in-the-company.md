@@ -46,7 +46,7 @@ budget can usually be allocated directly.
 
 This has led to some interesting initiatives, ranging from the design
 and implementation of retrospective facilitator trainings (which I
-will blog about later) to the founding of an application lifecycle
+have blogged about [here](/2011/07/30/designing-a-facilitator-training-part-1.html "Designing a Facilitator training - Part 1")) to the founding of an application lifecycle
 manangement task force.
 
 I like to think about this form of Open Space as a market place of

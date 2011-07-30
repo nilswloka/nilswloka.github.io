@@ -9,11 +9,10 @@ keywords: agile,retrospective,retrospectives,facilitate,facilitator,gather data,
 As internal coach, I get to facilitate quite a lot of
 retrospectives. While most go smoothly, every now and then teams seem
 to get stuck when trying to analyze their data. As I design most of
-the retrospective I facilitate based on the phases proposed by Esther
+my retrospective based on the phases proposed by Esther
 Derby and Diana Larsen in their excellent book [Agile
 Retrospectives](http://pragprog.com/book/dlret/agile-retrospectives),
-I tried to find out what might have gone wrong in the *Gather Data*
-phase.
+I tried to find out what might have gone wrong while *Gathering Data*.
 
 ## Intangible Timeline
 While reflecting about some retrospectives that felt awkward for the
