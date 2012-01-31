@@ -22,8 +22,8 @@ I believe that the ability to inspect and adapt is one of the essential assets o
 
 ### The challenge
 
-Now I'm convinced that neither coaching nor facilitation is something you can learn while listening to someone in the front of the classroom or by reading a book (even though Esther Derby's and Diana Larsen's excellent "[Agile Retrospective: Making Good Teams Great](http://pragprog.com/book/dlret/agile-retrospectives)" helps a lot). What I wanted people to actually walk away with was both some first hand experience and the feeling that this was the right way to help their teams grow.
-
+Now I'm convinced that neither coaching nor facilitation is something you can learn while listening to someone in the front of the classroom or by reading a book (even though Esther Derby's and Diana Larsen's excellent "[Agile Retrospective: Making Good Teams Great](http://pragprog.com/book/dlret/agile-retrospectives)" helps a lot). What I wanted people to actually walk away with was both some first hand experience and the feeling that this was the right way to help their teams grow
+.
 I decided to go for a one day workshop to make it reasonably easy to attend even for those colleagues who are busy with projects at our customer's sites and to keep the initial expenses low.
 
 At the same time, I had to take into account the fact that many of the workshop's participants might have no prior experience with retrospectives at all.
