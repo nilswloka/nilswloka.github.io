@@ -96,4 +96,4 @@ I would then close the workshop with a feedback round after having the attendant
 
 ### To be continued
 
-In the next post, I will desribe the workshops content in a little more detail and let you know what I learned during its first implementation. In the meantime, I'd love to hear about your experiences with teaching or learning how to facilitate retrospectives. What worked well for you and which traps did you fall into?
+In the [next post](/2012/02/29/designing-a-facilitator-training-part-2.html "Designing a Facilitator training - Part 2"), I will desribe the workshops content in a little more detail and let you know what I learned during its first implementation. In the meantime, I'd love to hear about your experiences with teaching or learning how to facilitate retrospectives. What worked well for you and which traps did you fall into?
