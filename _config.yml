@@ -1,4 +1,3 @@
 pygments: true
-haml_folder: **/*.haml
-sass_folder: **/*.sass
 markdown: rdiscount
+future: false
