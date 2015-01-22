@@ -1,0 +1,77 @@
+==================================================================
+https://keybase.io/nwloka
+--------------------------------------------------------------------
+
+I hereby claim:
+
+  * I am an admin of http://www.nilswloka.com
+  * I am nwloka (https://keybase.io/nwloka) on keybase.
+  * I have a public key with fingerprint 3C7F 8328 9320 B54C 1E90  3EAA CF7F 4502 DE96 9FC7
+
+To claim this, I am signing this object:
+
+{
+    "body": {
+        "client": {
+            "name": "keybase.io node.js client",
+            "version": "0.7.3"
+        },
+        "key": {
+            "fingerprint": "3c7f83289320b54c1e903eaacf7f4502de969fc7",
+            "host": "keybase.io",
+            "key_id": "CF7F4502DE969FC7",
+            "uid": "9918be7d905a5d2d421aaa7d8c799500",
+            "username": "nwloka"
+        },
+        "merkle_root": {
+            "ctime": 1421944799,
+            "hash": "cda8429ca53dab27318138d53992b0b91d9f513450dae544aa99b6afd163a6bef98adcca20c25c82871e6e221342a7da7a42fe4114c1dd9c93c6ac63da54257b",
+            "seqno": 138638
+        },
+        "service": {
+            "hostname": "www.nilswloka.com",
+            "protocol": "http:"
+        },
+        "type": "web_service_binding",
+        "version": 1
+    },
+    "ctime": 1421944844,
+    "expire_in": 157680000,
+    "prev": "12c41a4f4a891b93a788067cdab4db8e2be93a7d2b33b53c96b0cf563be203f0",
+    "seqno": 18,
+    "tag": "signature"
+}
+
+with the aforementioned key, yielding the PGP signature:
+
+-----BEGIN PGP MESSAGE-----
+Version: GnuPG/MacGPG2 v2.0.22 (Darwin)
+Comment: GPGTools - https://gpgtools.org
+
+owFVkl1oFUcYhk9ibGyMNUQRRUOSVVpr43HnZ3dnolZEE7xIawPWnxI8zN8ma052
+T3dPEhMJeiGCFEXB6kWpJSq2XsUW2mJrUipiKAEtRjBRtPaiVK1o8A8sRZ05pKB7
+NTvzfO/3vt/MgRlTUmVFl3Y2FN88/NVw0cgdntrw6+LyHRaPZI9Vv8MS2UCFebMK
+WYey6q121cNZotJBVBNGUqW3JTWTTJ3VpeIkiEJN2Wkvjay+OoObYj8IW1WciwOj
+ZSHh+QRBQhG0uYMFUNRGijHhez52bCgVdakvPC3ZFiX517paBc1MIPXumkav0fBr
+GzTfuMbwnYUDSgHhypPUdpgjocQQMMY8SYRHqWPbBkxUPBkp7M5G7cy47VBxe1Zl
+4igqRBb5wABAl1OMdan2w5I2XSIkIxhSwRwkGYceAgQgIh1EKeQ2p0BS3wFIm5NM
+ORgzRil3mS+Bi5jLlU8Jk0IwaAvoCAKJB5SrINQlUPtkHsPQVxgAPRwpqaBIuEy4
+upmDoeNxHSBRn4aRNoeIi0if+Y+7AqGMbzO0yWzd3d3pMMgmhYhpEXXoylwc5SMR
+ZfVxWz6fqzfJ8z25Av6t4plJpQwPQqnv7dWLBRp9fSoE4zpLbc8FscoEhnA8l9j6
+M31Ul9YEUGDAsI8ZoYBTxDxCbNfTI+RYcqIgV2ZTQo4Qd5CgLreF77iIK2gj334l
+K9FGWavWTILWkOU7Y2X17S1aUJIqKku9MbXYPN1U2ZsV/7/n+4OlLzZ9+XbVvRPP
+Z/15cP7KSw/L9yzKhscO/T2wpfejobG+z642Xx1PDcnHp59H7w9vvFbbPF69/9mp
+Zz9W/+uuHyiv/uOs3HB8MJDu+V3Nfx09VXnhQOm5W4f5N/Byw0jL9BVP3rrip6ZV
+1D+a2Pjgp2l+77yx87M7/wm+O3Z9YG3m5PCqmqWtkjZVjbY8/Xh0/B44+87qxXMe
+T52ocGrGZvaP9B+fs37hL1sPNuEPd5/+4POby2a+WHim5Ezvf2rftczPlZuHttpH
+362tbdsJSvqP3F66PTfw9cSNkz80lR+5+/2yT1LZdHHL8sH5J/ZZiy5Oqdy0ZLQ2
++P1Wju79ounuuqrKJ789nVu65L0ZF18C
+=jQVo
+-----END PGP MESSAGE-----
+
+And finally, I am proving ownership of this host by posting or
+appending to this document.
+
+View my publicly-auditable identity here: https://keybase.io/nwloka
+
+==================================================================
