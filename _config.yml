@@ -1,3 +1,4 @@
 pygments: true
 markdown: rdiscount
 future: false
+include: [".well-known", "keybase.txt"]
