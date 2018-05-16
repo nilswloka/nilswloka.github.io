@@ -1,4 +1,4 @@
-pygments: true
 markdown: kramdown
 future: false
 include: ["keybase.txt"]
+highlighter: rouge
