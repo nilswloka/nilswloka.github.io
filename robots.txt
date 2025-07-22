@@ -1,3 +1,0 @@
-Sitemap: http://www.nilswloka.com/sitemap.xml
-User-Agent: *
-Allow: /

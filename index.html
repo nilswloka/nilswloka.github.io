@@ -1,22 +1,25 @@
----
-layout: index
-title: A weblog about agile software development, coaching and strange ideas...
-paginate: true
-description: Nils Wloka's weblog about agile software development, coaching and strange ideas...
-keywords: nils wloka,agile,software development,coaching,agile coaching,blog
----
-{% for post in site.posts limit:3 %}
-{% assign body = post.content %}
-{% include partial-post.html %}
-{% endfor %}
-{% if site.posts.size > 3 %}
-<h1>Older posts</h1>
-<ul class="posts">
-  {% for post in site.posts offset:3 %}
-    <li>
-        <span class="date">{{ post.date | date_to_string }}</span>
-        <a href="{{ post.url }}">{{ post.title }}</a>
-    </li>
-    {% endfor %}
-</ul>
-{% endif %}
+<!doctype html>
+<html lang="en-US">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width" />
+    <meta name="description" content="Personal website of Nils Wloka." />
+    <meta name="editor" content="Emacs" />
+    <meta name="author" content="Nils Wloka">
+    <title>Nils Wloka - Software Industry Veteran</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="center">
+      <div class="business-card">
+	<h1>Nils Wloka</h1>
+	<p id="bio">Software industry veteran with almost three decades of experiences.</p>
+	<div id="position">Chief Product & Technology Officer at <a href="https://www.steadybit.com">Steadybit</a>.</div>
+	<div class="contact"><img src="logo-purple.svg" alt="Mastodon"><a href="https://mastodon.nilswloka.com/@nils">@nils@mastodon.nilswloka.com</a></div>
+	<div class="contact"><img src="LI-In-Bug.png" alt="LinkedIn"/><a href="https://www.linkedin.com/in/nilswloka/">nilswloka</a></div>
+	<div class="contact"><img src="github-mark.png" alt="GitHub"/><a href="https://github.com/nilswloka">nilswloka</a></div>
+	<div class="contact"><img src="email-address-icon.svg" /><a href="mailto:mail@nilswloka.com">mail@nilswloka.com</a></div>
+      </div>
+    </div>
+  </body>
+</html>

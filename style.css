@@ -1,0 +1,41 @@
+body {
+  margin: 0;
+  background-color: #d6ebe9;
+}
+
+.center {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.business-card {
+  padding:40px;
+  filter: drop-shadow(10px 10px 4px #666666);
+  background-color: #e0e0e0;
+  border: 1px solid #241e4e;
+  color: #960200;
+  font-family: sans-serif;
+  text-align: center;
+}
+
+h1 {
+  font-size: 3em;
+}
+
+#position {
+  margin-bottom: 3em;
+}
+
+.contact {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 1.5em;
+}
+
+.contact > img {
+  height: 20px;
+  padding-right: 10px;
+}
