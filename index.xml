@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Nils Wloka</title>
+    <link>http://nilswloka.com/</link>
+    <description>Recent content on Nils Wloka</description>
+    <generator>Hugo</generator>
+    <language>en-us</language>
+    <lastBuildDate>Sat, 20 Sep 2025 00:45:27 +0200</lastBuildDate>
+    <atom:link href="http://nilswloka.com/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>About</title>
+      <link>http://nilswloka.com/about/</link>
+      <pubDate>Sat, 20 Sep 2025 00:45:27 +0200</pubDate>
+      <guid>http://nilswloka.com/about/</guid>
+      <description>&lt;h1 id=&#34;who-i-am-professionally&#34;&gt;&#xA;  Who I am professionally?&#xA;  &lt;a class=&#34;heading-link&#34; href=&#34;#who-i-am-professionally&#34;&gt;&#xA;    &lt;i class=&#34;fa-solid fa-link&#34; aria-hidden=&#34;true&#34; title=&#34;Link to heading&#34;&gt;&lt;/i&gt;&#xA;    &lt;span class=&#34;sr-only&#34;&gt;Link to heading&lt;/span&gt;&#xA;  &lt;/a&gt;&#xA;&lt;/h1&gt;&#xA;&lt;p&gt;I am a software industry veteran who helps build, transform, and scale engineering organizations to create impactful and valuable software. To achieve that, I can draw upon almost three decades of experience in a wide array of related roles:&lt;/p&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;As a &lt;strong&gt;software engineer&lt;/strong&gt;, I have built and delivered enterprise-grade software systems with a strong focus on agile principles and software craftsmanship.&lt;/li&gt;&#xA;&lt;li&gt;As a &lt;strong&gt;software architect&lt;/strong&gt;, I have used methods like ATAM to design and validate software architecture approaches for large scale software systems.&lt;/li&gt;&#xA;&lt;li&gt;As a &lt;strong&gt;solution architect&lt;/strong&gt;, I have laid the foundation for successful software projects by bridging the gap between business needs and software delivery.&lt;/li&gt;&#xA;&lt;li&gt;As an &lt;strong&gt;agile coach and trainer&lt;/strong&gt;, I have helped teams discover better ways of developing software.&lt;/li&gt;&#xA;&lt;li&gt;As a &lt;strong&gt;product owner, product manager and product management coach&lt;/strong&gt;, I have enabled organizations to generate value with software by better understanding the problems they wanted to solve.&lt;/li&gt;&#xA;&lt;li&gt;As &lt;strong&gt;manager&lt;/strong&gt;, I have shaped and grown software delivery organizations so that they provide the best possible service to their business while being great and inclusive places to work.&lt;/li&gt;&#xA;&lt;li&gt;As a &lt;strong&gt;public speaker, author, and trainer&lt;/strong&gt;, I have shared my experiences and skils with a wide range of audiences.&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;p&gt;I&amp;rsquo;ve worked with established businesses of all shapes and sizes, and with startups from seed to post-acquisition stage. While my domain experience is deepest in the software as as service space, I have successfully delivered projects and products in the insurance, retail, logistics, and manifacturing verticals.&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>
